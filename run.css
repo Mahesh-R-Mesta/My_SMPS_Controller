@@ -1,0 +1,156 @@
+.myPopup {
+    width: 8cm;
+    background-color:black;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-style: double;
+    
+}
+
+.heading {
+  color: rgb(48, 241, 0);
+  text-shadow: 2px 1px 1px orange;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.label1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px rgb(28, 14, 221);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#button1 {
+  border: 10px;
+  color: red;
+  width: 65;
+  height: 25;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 2px 1px 1px blue;
+}
+
+#button2 {
+  border: 10px;
+  color: blue;
+  width: 65;
+  height: 25;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 2px 1px 1px blue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#button3 {
+  border: 10px;
+  color: blue;
+  width: 65;
+  height: 25;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 2px 1px 1px blue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#button4 {
+  border: 10px;
+  color: blue;
+  width: 65;
+  height: 25;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 2px 1px 1px blue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.byName {
+  background-color: rgb(61, 94, 240);
+  color:white;
+  padding: 7px;
+  text-shadow: 2px 1px 1px black;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius:7px;
+  width: fit-content;
+  
+}
+
+.btn{
+  border-radius:3px;
+  margin-top: 5px;
+  border-color: coral;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cpanel {
+  align-items: center;
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-color: white;
+  border-style:dotted;
+}
+
+#textField {
+  width: 160px;
+  border-color: aqua;
+}
+
+.switch {
+position: relative;
+display: inline-block;
+width: 30px;
+height: 10px;
+color: brown;
+}
+
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+    position: relative;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+.slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
